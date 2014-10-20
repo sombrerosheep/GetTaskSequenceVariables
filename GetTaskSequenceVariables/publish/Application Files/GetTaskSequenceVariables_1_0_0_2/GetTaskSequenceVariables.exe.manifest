@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GetTaskSequenceVariables.exe" version="1.0.0.2" publicKeyToken="ceedd14f468fb2a4" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="tasksqmediawiz.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GetTaskSequenceVariables" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GetTaskSequenceVariables.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GetTaskSequenceVariables.exe" size="40448">
+      <assemblyIdentity name="GetTaskSequenceVariables" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ASUSa6aqNDb3MjCKwasb6RiFTipC5vuoH6AIYaOrLws=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="tasksqmediawiz.ico" size="25214">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UAB6ZljuIp60AmZa2obIfNfwYGbL8q2dIWtfr9Kdy3M=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JDNET\ns43404" issuerKeyHash="c63f49e74963f391778131689c97448f92f3ae56" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>J8elRSVSdg3Ct1E+Mwo6o50HYzvfTslx9yky61OV9d0=</DigestValue></Reference></SignedInfo><SignatureValue>slY3ip3lEHb0w6nspXoO5yP7ms5EgGS09brY3NGmm0o85C4U3o2GvYXTNo8OlmzGMCY40Qh/twAmnCGONMnxjdDgDP4Q7/qnmOuNwMmK5fUGRSmXVzzbhLMQKZ4VVvzDoFMf+/etYiUQGske0FSYMx0bkodykgbyvtyypYpC3UI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>9RWZFLvDjEbtXYljZW0zhLwIfFL2zeBiu4nyKAJk90w16Dm4KKalFckjI2yUV7wTGFizF/fEWoDgh8RfkhsrtzPc+Bk/rZimgJaR+rKuRN/zjrEcHuBIbaDWdvm4REjkSWn4IDj9QScVMklB8KePG1KgeUbcKwKbJ3rBV72OWZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ddf59553eb3229f771c94edf3b63079da33a0a333e51b7c20d76522545a5c727" Description="" Url=""><as:assemblyIdentity name="GetTaskSequenceVariables.exe" version="1.0.0.2" publicKeyToken="ceedd14f468fb2a4" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JDNET\ns43404</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>k7diTjc8+7/oyMt/OKL7z/rQS8YBHiCXyx/ImMFuxtE=</DigestValue></Reference></SignedInfo><SignatureValue>shdTnGlI5wHboA+QiCjgmV8gCv6uOtNXXtFohfRQSV+NJh47BhpWn1lHkbxwHLKeXo1s1EzjBY8Lu+cgaipf8fNigPiDH4zNmjAtKdIV5uIYCOCuOc1AuMu/0uIJPCdiXx0R5KPdhloKebbbSP6hS3RiSyhISnY+5D/s54rkbqk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9RWZFLvDjEbtXYljZW0zhLwIfFL2zeBiu4nyKAJk90w16Dm4KKalFckjI2yUV7wTGFizF/fEWoDgh8RfkhsrtzPc+Bk/rZimgJaR+rKuRN/zjrEcHuBIbaDWdvm4REjkSWn4IDj9QScVMklB8KePG1KgeUbcKwKbJ3rBV72OWZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQMG8gO5eTgqVEuyehRJkRtDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASgBEAE4ARQBUAFwAbgBzADQAMwA0ADAANDAeFw0xNDA1MDUwMjI1NDdaFw0xNTA1MDUwODI1NDdaMCUxIzAhBgNVBAMeGgBKAEQATgBFAFQAXABuAHMANAAzADQAMAA0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD1FZkUu8OMRu1diWNlbTOEvAh8UvbN4GK7ifIoAmT3TDXoObgopqUVySMjbJRXvBMYWLMX98RagOCHxF+SGyu3M9z4GT+tmKaAlpH6sq5E3/OOsRwe4EhtoNZ2+bhESORJafggOP1BJxUySUHwp48bUqB5RtwrApsnesFXvY5ZkQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAOJeJDNx7qHRrQoSmdJaxNnJnutVCN08eX6NSbUb7v+5EfKRGnh+7PMdADOa6McnuQ2sJVsTaYAbMFMsxZGgZ2aErBlkyu0PCLG/c3wB1zdKteALuyUy/gaXNgKBqrpbmDmsTyKvQwHTjIL6NiN4/2NSzipjyzu5knx2ulE/M1Op</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

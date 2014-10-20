@@ -1,0 +1,10 @@
+c:\users\ns43404\documents\visual studio 2013\Projects\GetTaskSequenceVariables\GetTaskSequenceVariables\bin\Debug\GetTaskSequenceVariables.exe
+c:\users\ns43404\documents\visual studio 2013\Projects\GetTaskSequenceVariables\GetTaskSequenceVariables\bin\Debug\GetTaskSequenceVariables.pdb
+c:\users\ns43404\documents\visual studio 2013\Projects\GetTaskSequenceVariables\GetTaskSequenceVariables\obj\Debug\GetTaskSequenceVariables.csprojResolveAssemblyReference.cache
+c:\users\ns43404\documents\visual studio 2013\Projects\GetTaskSequenceVariables\GetTaskSequenceVariables\obj\Debug\GetTaskSequenceVariables.exe
+c:\users\ns43404\documents\visual studio 2013\Projects\GetTaskSequenceVariables\GetTaskSequenceVariables\obj\Debug\GetTaskSequenceVariables.pdb
+c:\users\ns43404\documents\visual studio 2013\Projects\GetTaskSequenceVariables\GetTaskSequenceVariables\bin\Debug\GetTaskSequenceVariables.exe.manifest
+c:\users\ns43404\documents\visual studio 2013\Projects\GetTaskSequenceVariables\GetTaskSequenceVariables\bin\Debug\GetTaskSequenceVariables.application
+c:\users\ns43404\documents\visual studio 2013\Projects\GetTaskSequenceVariables\GetTaskSequenceVariables\obj\Debug\GetTaskSequenceVariables.exe.manifest
+c:\users\ns43404\documents\visual studio 2013\Projects\GetTaskSequenceVariables\GetTaskSequenceVariables\obj\Debug\GetTaskSequenceVariables.application
+C:\Users\ns43404\Documents\Visual Studio 2013\Projects\GetTaskSequenceVariables\GetTaskSequenceVariables\bin\Debug\GetTaskSequenceVariables.exe.config
